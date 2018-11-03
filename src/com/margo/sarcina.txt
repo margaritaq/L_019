@@ -1,0 +1,25 @@
+Create a program
+where you can enter data about a triangle in console,
+and give all 3 sides
+and the program outputs the area and the perimeter of that triangle (in console).
+
+
+The operations of input, geometrical logic (getArea, getPerimeter) and output in console should be separated.
+
+So for input you should have a class InputController which has a method createTriangle()
+which returns a triangle after wrtiting in console all 3 sides inside this method.
+
+For output you should have a class OutputController which has a method
+printTriangleAreaAndPerimeter(Triangle triangle); which should not return anything but
+should print the area and the perimeter of that triangle given as argument.
+
+Of course it is needed to have a class Triangle with 3 properties - side1, side2, side3.
+Also it should have the methods getArea() and getPerimeter().
+
+In main you should have something like this:
+
+Triangle triangle =  InputController.createTriangle();
+OutputController.printTriangleAreaAndPerimeter(triangle);
+
+Triangle triangle =  InputController.create(a,b,c);
+OutputController.printAreaAndPerimeter(triangle);
