@@ -1,4 +1,4 @@
-package com.margo;
+package com.margo.objects;
 
 public class Patrat {
 
